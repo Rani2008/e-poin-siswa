@@ -45,7 +45,7 @@
     <br><br>
 
     <label>Nis Siswa</label>
-    <input type="text" name="nis" value="{{ old('nis') }}" required>
+    <input type="text" name="nis" id="nis" value="{{ old('nis') }}" required>
     <br><br>
 
     <label>Tingkatan</label>
@@ -78,7 +78,7 @@
     <br><br>
 
     <label>No Hp</label>
-    <input type="text" name="hp" value="{{ old('hp') }}" required>
+    <input type="text" name="hp" id="hp" value="{{ old('hp') }}" required>
     <br><br>
 
     <button type="submit">SIMPAN DATA</button>
